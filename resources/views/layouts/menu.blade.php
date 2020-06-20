@@ -34,3 +34,7 @@
     <a href="{{ route('failedJobs.index') }}"><i class="fa fa-edit"></i><span>Failed Jobs</span></a>
 </li>
 
+<li class="{{ Request::is('users*') ? 'active' : '' }}">
+    <a href="{{ route('users.index') }}"><i class="fa fa-edit"></i><span>Users</span></a>
+</li>
+
