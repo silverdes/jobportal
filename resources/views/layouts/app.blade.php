@@ -35,7 +35,7 @@
 
             <!-- Logo -->
             <a href="#" class="logo">
-                <b>InfyOm</b>
+                <b>Jobs Portal</b>
             </a>
 
             <!-- Header Navbar -->
