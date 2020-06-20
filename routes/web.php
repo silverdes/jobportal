@@ -39,3 +39,7 @@ Route::resource('organisations', 'OrganisationController');
 Route::resource('roles', 'RoleController');
 
 Route::resource('skills', 'SkillController');
+
+Route::resource('organisationUsers', 'OrganisationUserController');
+
+Route::resource('failedJobs', 'FailedJobController');

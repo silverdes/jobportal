@@ -26,3 +26,11 @@
     <a href="{{ route('skills.index') }}"><i class="fa fa-edit"></i><span>Skills</span></a>
 </li>
 
+<li class="{{ Request::is('organisationUsers*') ? 'active' : '' }}">
+    <a href="{{ route('organisationUsers.index') }}"><i class="fa fa-edit"></i><span>Organisation Users</span></a>
+</li>
+
+<li class="{{ Request::is('failedJobs*') ? 'active' : '' }}">
+    <a href="{{ route('failedJobs.index') }}"><i class="fa fa-edit"></i><span>Failed Jobs</span></a>
+</li>
+
