@@ -52,6 +52,8 @@ return [
         'factory'           => database_path('factories/'),
 
         'view_provider'     => app_path('Providers/ViewServiceProvider.php'),
+
+        'add_on' => [ 'menu' => [ 'enabled' => true ] ] 
     ],
 
     /*
