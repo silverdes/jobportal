@@ -1,9 +1,3 @@
-<!-- User Id Field -->
-<div class="form-group col-sm-6">
-    {!! Form::label('user_id', 'User Id:') !!}
-    {!! Form::number('user_id', null, ['class' => 'form-control']) !!}
-</div>
-
 <!-- Organisation Id Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('organisation_id', 'Organisation Id:') !!}
@@ -31,7 +25,7 @@
 <!-- Description Field -->
 <div class="form-group col-sm-6">
     {!! Form::label('description', 'Description:') !!}
-    {!! Form::text('description', null, ['class' => 'form-control']) !!}
+    {!! Form::textarea('description', null, ['class' => 'form-control']) !!}
 </div>
 
 <!-- Work Type Field -->

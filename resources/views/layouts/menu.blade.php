@@ -36,6 +36,8 @@
 
 @if(Auth::user()->role_id <3 )
 
+<li class="header">Admin Panel</li>
+
 <li class="{{ Request::is('accounts*') ? 'active' : '' }}">
     <a href="{{ route('accounts.index') }}"><i class="fa fa-edit"></i><span>Accounts</span></a>
 </li>

@@ -70,7 +70,6 @@ class Job extends Model
      * @var array
      */
     public static $rules = [
-        'user_id' => 'required',
         'title' => 'required',
         'skills_required' => 'required',
         'description' => 'required',

@@ -20,7 +20,7 @@ class CreateJobsTable extends Migration
             $table->integer('country_id')->nullable();
             $table->string('title');
             $table->string('skills_required');
-            $table->string('description');
+            $table->$table->longText('description');
             $table->string('work_type')->default('on site'); //remote 
             $table->string('job_type')->default('full time');
             $table->string('status')->nullable()->default('open');
